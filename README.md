@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # Projet Formulaire HTML et PHP
 
 Le projet consiste à apprendre les bases de HTML et PHP.
@@ -24,5 +22,3 @@ Cette activité doit permettre de réviser
 # htmlphp
 
 Voici mon Projet avec mes camarades Amar, Aymen sur l'apprentissage de Git
-
-> > > > > > > 6974de6e32c6b9167da612a19f1243a55efa2335
