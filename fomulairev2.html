@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="ESER Enes">
+    <title> ACTIVITE 2 HTML </title>
+    <link rel="stylesheet" type="text/css" href="">
+</head>
+<form>
+    <label for="txtID">ID :</label>
+<input
+type="text" name="txtID" id="txtID"
+readonly size="5"
+/>
+<input
+type="text" name="txtNom" id="txtNom"
+size="40" maxlength="128" placeholder="Nom"
+</form>
+<form action="formulaire.php method="post">
+    <label for="txtDate">Date d’embauche :</label>
+    <input type="date" name="txtDate" id="txtDate" />
+    </form>
+    <form action="formulaire.php" method="post">
+  <label for="txtPwd">Mot de passe :</label>
+   <input type="password" name="txtPwd" id="txtPwd" />
+   <input type="image" src="formulaire.jpg" name="btnValider" alt="Valider" />
+    </form>
+        <form action="formulaire.php" method="post">
+   <label for="txtComments">Commentaires :</label>
+  <textarea cols="50" rows="5"></textarea>
+   </form>
+<form action="formulaire.php" method="post">
+  <select size="1">
+      <option value="1">Bac S</option>
+<option value="2" selected>Bac ES</option>
+<option value="3">Bac L</option>
+   </select>
+</form>
+     <form action="formulaire.php" method="post">
+        <fieldset>
+<legend>Civilté</legend>
+   <input type="text" name="txtPnom" id="txtPnom" placeholder="Prénom" />
+    <input type="text" name="txtNom" id="txtNom" placeholder="Nom" />
+   </fieldset>
+   <fieldset>
+  <legend>Niveau scolaire</legend>
+ <input type="checkbox" name="txtDiplome" value="Brevet">Brevet des collèges<br />
+    <input type="checkbox" name="txtDiplome" value="Baccalauréat ">Baccalauréat<br />
+  <input type="checkbox" name="txtDiplome" value="Etudes sup. ">Etudes supérieures<br />
+    </fieldset><br />
+    
+         <input type="checkbox" name="chkD1" value="1">Brevet des collèges<br />
+<input type="checkbox" name="chkD2" value="2">Baccalauréat<br />
+<input type="checkbox" name="chkD3" value="3">L1<br />
+<input type="checkbox" name="chkD4" value="4">L2<br />
+</form>                     
+<form action="formulaire.php" method="post">
+<input type="radio" name="rbSituation" value="1" checked>Célibataire<br />
+<input type="radio" name="rbSituation" value="2">Marié<br />
+<input type="radio" name="rbSituation" value="3">Pacsé<br />
+</form>
+<form action="formulaire.php" method="post">
+<input type="text" name="txtNom" id="txtNom" />
+<button type="submit" name="btnValider">Valider</button>
+<input type="reset" name="btnReinit" value="Réinitialiser" />
+</form>
+
+
+
+    

@@ -21,4 +21,4 @@ Cette activité doit permettre de réviser
 
 # htmlphp
 
-Voici mon Projet avec mes camarades Amar, Aymen sur l'apprentissage de Git
+Voici mon Projet avec mes camarades Sobry, Amar, Aymen sur l'apprentissage de Git
